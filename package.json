@@ -1,0 +1,24 @@
+{
+  "name"              : "tag-cam-server",
+  "main"              : "Server.js",
+  "description"       : "Tag Cam Server",
+  "version"           : "1.0.0",
+  "keywords"          : [ "demo" ],
+  "homepage"          : "https://github.com/sethmcl/tag-cam-server",
+  "engines"           : {
+    "node"            : ">=0.8.0"
+  },
+  "bin"               : {
+    "tag-cam-server"          : "./bin/server"
+  },
+  "licenses"          : [{
+    "type"            : "Apache 2.0"
+  }],
+  "dependencies"      : {
+    "express"           : "3.0.0beta4",
+    "colors"            : "0.6.0",
+    "dustjs-linkedin"   : "0.6.0",
+    "consolidate"       : "0.3.0"
+  },
+  "os": ["!win32"]
+}

@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+var App   = require('../Server'),
+    app   = new App();
+
+app.run(process.argv);
